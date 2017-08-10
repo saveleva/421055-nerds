@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/18/user/421055).
-* Наставник: `Неизвестно`.
+* Студент: [Оксана Савельева](https://up.htmlacademy.ru/htmlcss/18/user/421055).
+* Наставник: [Максим Сёмушкин](https://htmlacademy.ru/profile/id505057).
 
 ---
 
