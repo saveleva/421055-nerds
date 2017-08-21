@@ -3,92 +3,86 @@
   <head>
     <meta charset="utf-8">
     <title>Дизайн-студия «Нёрдз»</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
 
-    <header class="main-header">
-
-      <nav class="main-navigation">
-        <a class="main-header-logo">
-          <img src="img/index-logo.svg" width="0" height="0" alt="Логотип дизайн-студии «Нёрдз»">
-        </a>
-        <ul class="site-navigation">
-          <li><a href="info.html">Студия</a></li>
-          <li><a href="clients.html">Клиенты</a></li>
-          <li><a href="catalog.html">Магазин</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-        <ul class="user-navigation">
-          <li class="user-cart">Корзина</li>
-        </ul>
-      </nav>
-    </header>
-
+  <header class="main-header">
+    <nav class="main-navigation">
+      <a class="main-header-logo">
+        <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип дизайн-студии «Нёрдз»">
+      </a>
+      <ul class="site-navigation">
+        <li><a href="info.html">Студия</a></li>
+        <li><a href="clients.html">Клиенты</a></li>
+        <li><a href="catalog.html">Магазин</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+      <ul class="user-navigation">
+        <li class="user-cart"><a href="#">Корзина</a></li>
+      </ul>
+    </nav>
+    <section class="slider">
+      <h1 class="visually-hidden">Дизайн-студия «Нёрдз»</h1>
+      <ul class="slider-list">
+        <li class=slider-item>
+          <figure class="slider-img1"></figure>
+          <h2>Долго, дорого, скурпулезно</h2>
+          <p class="slider-text">Математически выверенный дизайн  для вашего сайта или мобильного приложения</p>
+          <a class="button" href="info.html">Узнать больше</a>
+        </li>
+        <li class="slider-item">
+          <figure class="slider-img2"></figure>
+          <h2>Любим математику как никто другой</h2>
+          <p class="slider-text">Никакого креатива, только математические формулы  для расчета идеальных пропорций</p>
+          <a class="button" href="info.html">Узнать больше</a>
+        </li>
+        <li class="slider-item">
+          <figure class="slider-img3"></figure>
+          <h2>Только ночь, только хардкор</h2>
+          <p class="slider-text">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается</p>
+          <a class="button" href="info.html">Узнать больше</a>
+        </li>
+      </ul>
+    </section>
+  </header>
     <main class="container">
-
-      <!--Не знаю как разметить слайдер -->
-      <section class="slider">
-        <h1 class="visually-hidden">Дизайн-студия «Нёрдз»</h1>
-          <div class="slider-item">
-            <p class="slider-slogan">Долго,дорого,скурпулезно</p>
-            <p class="slider-text">Математически выверенный дизайн  для вашего сайта или мобильного приложения</p>
-            <a class="button" href="info.html">Узнать больше</a>
-            <img src="img/index-slider1.png" width="0" height="0" alt="Дизайн-студия «Нёрдз»">
-          </div>
-
-          <div class="slider-item">
-            <p class="slider-slogan">Любим математику как никто другой</p>
-            <p class="slider-text">Никакого креатива, только математические формулы  для расчета идеальных пропорций</p>
-            <a class="button" href="info.html">Узнать больше</a>
-            <img src="img/index-slider2.png" width="0" height="0" alt="Дизайн-студия «Нёрдз»">
-          </div>
-
-          <div class="slider-item">
-            <p class="slider-slogan">Только ночь, только хардкор</p>
-            <p class="slider-text">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается</p>
-            <a class="button" href="info.html">Узнать больше</a>
-            <img src="img/index-slider3.png" width="0" height="0" alt="Дизайн-студия «Нёрдз»">
-          </div>
-      </section>
-
       <section class="services">
         <h2 class="visually-hidden">Услуги дизайн-студии «Нёрдз»</h2>
-          <ul class="services-list">
+        <ul class="services-list">
+          <li class="service-item">
+            <p><img src="img/index-websites.jpg" width="300" height="146" alt="Веб-сайты"></p>
+            <h3><a href="#">Веб-сайты</a></h3>
+            <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+            <a class="button" href="#">Заказать</a>
+          </li>
+          <li class="service-item">
+            <p><img src="img/index-applications.jpg" width="300" height="146" alt="Приложения"></p>
+            <h3><a href="#">Приложения</a></h3>
+            <p>Покорите топ-10 приложений в AppStore и Google Play</p>
+            <a class="button" href="#">Заказать</a>
+          </li>
             <li class="service-item">
-              <img src="img/index-site.png" width="0" height="0" alt="Веб-сайты">
-              <h3>Веб-сайты</h3>
-              <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-              <a class="button" href="#">Заказать</a>
-            </li>
-            <li class="service-item">
-              <img src="img/index-application.png" width="0" height="0" alt="Приложения">
-              <h3>Приложения</h3>
-              <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-              <a class="button" href="#">Заказать</a>
-            </li>
-            <li class="service-item">
-              <img src="img/index-presentation.png" width="0" height="0" alt="Презентации">
-              <h3>Презентации</h3>
-              <p>Вы даже не подозреваете,  насколько вы изумительны!</p>
-              <a class="button" href="#">Заказать</a>
-            </li>
+            <p><img src="img/index-presentations.jpg" width="300" height="146" alt="Презентации"></p>
+            <h3><a href="#">Презентации</a></h3>
+            <p>Вы даже не подозреваете,  насколько вы изумительны!</p>
+            <p><a class="button" href="#">Заказать</a></p>
+          </li>
           </ul>
         </section>
 
         <section class="studio">
           <h2 class="visually-hidden">О дизайн-студии «Нёрдз»</h2>
-            <p><b>Мы — маленькая, но гордая дизайн-студия из Краснодара.</b></p>
-            <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет
-              превыше креатива. Работаем не покладая рук, как роботы.</p>
-            <h4>Выполняем заказы на разработку:</h4>
-            <ul class="studio-servises">
-              <li class="studio-servises-item">Веб-сайтов любой сложности</li>
-              <li class="studio-servises-item">Мобильных приложений для iOS и Android</li>
-              <li class="studio-servises-item">Слайдшоу и видео для корпоративных презентаций</li>
-	          </ul>
-            <figure class="studio-logo">
-              <img src="img/index-logo.svg" width="0" height="0" alt="Логотип дизайн-студии «Нёрдз»">
-            </figure>
+          <p>Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
+          <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+          <h4>Выполняем заказы на разработку:</h4>
+          <ul class="studio-servises">
+            <li class="studio-servises-item">Веб-сайтов любой сложности</li>
+            <li class="studio-servises-item">Мобильных приложений для iOS и Android</li>
+            <li class="studio-servises-item">Слайдшоу и видео для корпоративных презентаций</li>
+	         </ul>
+          <figure class="studio-logo">
+            <img src="img/index-studio.jpg" width="360" height="208" alt="Логотип дизайн-студии «Нёрдз»">
             <h4>с 2004 года любим точность во всем:</h4>
             <table class="studio-table">
               <tr class="studio-table-row1">
@@ -102,52 +96,55 @@
                 <td>Минимальная предоплата</td>
               </tr>
             </table>
-          </section>
-
-          <section class="partners">
-            <h2 class="visually-hidden">Партнеры дизайн-студии «Нёрдз»</h2>
-            <figure class="partners-gallery">
-              <ul>
-                <li><a href="https://htmlacademy.ru/intensive/htmlcss">
-                      <img src="#" width="0" height="0" alt="HTML Academy"></a></li>
-                <li><a href="#"><img src="#" width="0" height="0" alt="Барбершоп Бородинский"></a></li>
-                <li><a href="#"><img src="#" width="0" height="0" alt="Pink"></a></li>
-                <li><a href="#"><img src="#" width="0" height="0" alt="Mishka"></a></li>
-              </ul>
-            </figure>
-          </section>
-        </main>
-
-          <footer class="main-footer">
-            <section class="footer-contacts">
-            <h2 class="visually-hidden">Наши контакты</h2>
-              <a class="contacts-map">
-                <img src="img/index-map.png" width="0" height="0" alt="Адрес дизайн-студии  «Нёрдз» на карте">
-              </a>
-            <div class="contacts-adress">
-              <p><b>NЁRDS DESIGN STUDIO</b></p>
-              <p>191186, Санкт-Петербург,<br>
-                ул. Б. Конюшенная, д. 19/8<br></p>
-              <p>тел. +7 (812) 275-75-75</p>
-              <a class="button contacts-button" href="#">Напишите нам</a>
-            </div>
-            </section>
-
-            <div class="footer-social">
-              <ul>
-                <li><a class="social-button" href="#">Вконтакте</a></li>
-                <li><a class="social-button" href="#">Фейсбук</a></li>
-                <li><a class="social-button" href="#">Инстаграм</a></li>
-              </ul>
-            </div>
-            <p><b>Давайте дружить!</b></p>
-            <p>Скидка 10% для друзей из социальных сетей.</p>
-          </footer>
-
-<!--здесь должна быть форма обратной записи-->
-        <section class="modal modal-writeus">
-
+          </figure>
         </section>
 
-    </body>
+        <section class="partners">
+          <h2 class="visually-hidden">Партнеры дизайн-студии «Нёрдз»</h2>
+          <ul>
+            <li><a href="https://htmlacademy.ru/intensive/htmlcss">
+                <img src="img/partners-htmlacademy.png" width="199" height="68" alt="Логотип «HTML Academy»"></a></li>
+            <li><a href="#"><img src="img/partners-borodinski.png" width="209" height="90" alt="Логотип «Барбершоп Бородинский»"></a></li>
+            <li><a href="#"><img src="img/partners-pink.png" width="185" height="52" alt="Логотоип «PINK APP»"></a></li>
+            <li><a href="#"><img src="img/partners-mishka.png" width="173" height="84" alt="Логотип «Mishka»"></a></li>
+          </ul>
+        </section>
+      </main>
+        <footer class="main-footer">
+          <section class="footer-contacts">
+            <h2 class="visually-hidden">Наши контакты</h2>
+            <figure class="contacts-map"></figure>
+            <div class="contacts-adress">
+              <h3>nёrds disign studio</h3>
+              <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+              <p>тел. +7 (812) 275-75-75</p>
+                <a class="button contacts-button" href="#">Напишите нам</a>
+            </div>
+          </section>
+          <section class="footer-social">
+            <ul>
+              <li><a class="social-button" href="#">Вконтакте</a></li>
+              <li><a class="social-button" href="#">Фейсбук</a></li>
+              <li><a class="social-button" href="#">Инстаграм</a></li>
+            </ul>
+            <p><strong>Давайте дружить!</strong>
+            <p>Скидка 10% для друзей из социальных сетей.</p>
+          </section>
+        </footer>
+        <section class="write-for-us">
+          <h2>Напишите нам</h2>
+          <form action="#" method="get">
+            <label class="write-for-us">Ваше имя:
+              <input type="text" name="username" placeholder="Представьтесь, пожалуйста" required>
+            </label>
+            <label class="write-for-us">Ваш e-mail:
+              <input type="email" name="email" placeholder="Для отправки ответа" autocomplete="on" required>
+            </label>
+            <label class="write-for-us">Текст письма:
+              <textarea name="text"  placeholder="В свободной форме"  required></textarea>
+            </label>
+            <button type="submit">Отправить</button>
+          </form>
+        </section>
+      </body>
 </html>
