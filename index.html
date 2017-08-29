@@ -1,92 +1,94 @@
 <!DOCTYPE html>
-<html lang="ru">
- <head>
-  <meta charset="utf-8">
-  <title>Дизайн-студия «Нёрдз»</title>
-  <link href="css/style.css" rel="stylesheet">
- </head>
- <body>
-  <header class="main-header">
+ <html lang="ru">
+  <head>
+   <meta charset="utf-8">
+   <title>Дизайн-студия «Нёрдз»</title>
+   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+   <link href="css/normalize.css" rel="stylesheet">
+   <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+   <header class="main-header">
    <nav class="main-navigation">
     <a class="main-header-logo"><img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип дизайн-студии «Нёрдз»"></a>
-     <ul class="site-navigation">
-      <li><a href="info.html">Студия</a></li>
-      <li><a href="clients.html">Клиенты</a></li>
-      <li><a href="catalog.html">Магазин</a></li>
-      <li><a href="contacts.html">Контакты</a></li>
-      </ul>
-      <ul class="user-navigation">
-       <li class="user-cart"><a href="#">Корзина</a></li>
-      </ul>
-    </nav>
-    <section class="slider">
+    <ul class="site-navigation">
+     <li><a href="info.html">Студия</a></li>
+     <li><a href="clients.html">Клиенты</a></li>
+     <li><a href="catalog.html">Магазин</a></li>
+     <li><a href="contacts.html">Контакты</a></li>
+    </ul>
+    <ul class="user-navigation">
+     <li class="user-cart"><a href="#">Корзина</a></li>
+    </ul>
+   </nav>
+    <section class="sliders">
      <h1 class="visually-hidden">Дизайн-студия «Нёрдз»</h1>
      <ul class="slider-list">
-      <li class=slider-item>
-       <figure class="slider-img1"></figure>
+      <li class="slider-item">
        <h2>Долго, дорого, скурпулезно</h2>
        <p class="slider-text">Математически выверенный дизайн  для вашего сайта или мобильного приложения</p>
-       <a class="button" href="info.html">Узнать больше</a>
+       <a class="button button-slider" href="info.html">Узнать больше</a>
+       <div class="slider slider1"></div>
       </li>
       <li class="slider-item">
-       <figure class="slider-img2"></figure>
        <h2>Любим математику как никто другой</h2>
        <p class="slider-text">Никакого креатива, только математические формулы  для расчета идеальных пропорций</p>
-       <a class="button" href="info.html">Узнать больше</a>
+       <a class="button button-slider" href="info.html">Узнать больше</a>
+       <div class="slider slider2"></div>
       </li>
       <li class="slider-item">
-       <figure class="slider-img3"></figure>
        <h2>Только ночь, только хардкор</h2>
        <p class="slider-text">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается</p>
-       <a class="button" href="info.html">Узнать больше</a>
-       </li>
-      </ul>
-     </section>
-    </header>
+       <a class="button button-slider" href="info.html">Узнать больше</a>
+       <div class="slider slider3"></div>
+      </li>
+     </ul>
+    </section>
+   </header>
    <main class="container">
     <section class="services">
      <h2 class="visually-hidden">Услуги дизайн-студии «Нёрдз»</h2>
      <ul class="services-list">
       <li class="service-item">
        <p><img src="img/index-websites.jpg" width="300" height="146" alt="Веб-сайты"></p>
-       <h3><a href="#">Веб-сайты</a></h3>
+       <h3><a class="servises-product" href="#">Веб-сайты</a></h3>
        <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-       <p><a class="button" href="catalog.html">Заказать</a></p>
+       <p><a class="button button-web" href="catalog.html">Заказать</a></p>
       </li>
       <li class="service-item">
        <p><img src="img/index-applications.jpg" width="300" height="146" alt="Приложения"></p>
-       <h3><a href="#">Приложения</a></h3>
+       <h3><a class="servises-product" href="#">Приложения</a></h3>
        <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-       <p><a class="button" href="catalog.html">Заказать</a></p>
+       <p><a class="button button-app" href="catalog.html">Заказать</a></p>
       </li>
       <li class="service-item">
        <p><img src="img/index-presentations.jpg" width="300" height="146" alt="Презентации"></p>
-       <h3><a href="#">Презентации</a></h3>
+       <h3><a class="servises-product" href="#">Презентации</a></h3>
        <p>Вы даже не подозреваете,  насколько вы изумительны!</p>
-       <p><a class="button" href="catalog.html">Заказать</a></p>
+       <p><a class="button button-pres" href="catalog.html">Заказать</a></p>
       </li>
      </ul>
     </section>
     <section class="studio">
-      <h2 class="visually-hidden">О дизайн-студии «Нёрдз»</h2>
-      <div class="studio-text">
-       <p>Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
-       <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
-       <h4>Выполняем заказы на разработку:</h4>
-       <ul class="studio-servises">
-        <li class="studio-servises-item">Веб-сайтов любой сложности</li>
-        <li class="studio-servises-item">Мобильных приложений для iOS и Android</li>
-        <li class="studio-servises-item">Слайдшоу и видео для корпоративных презентаций</li>
-	     </ul>
-      </div>
-      <div class="studio-info">
-        <img src="img/index-studio.jpg" width="360" height="208" alt="Логотип дизайн-студии «Нёрдз»">
-        <h4>с 2004 года любим точность во всем:</h4>
-        <table class="studio-table">
+     <h2 class="visually-hidden">О дизайн-студии «Нёрдз»</h2>
+     <div>
+      <p class="studio-text">Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
+      <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+      <h4>Выполняем заказы на разработку:</h4>
+      <ul class="studio-servises">
+       <li class="studio-servises-item">Веб-сайтов любой сложности</li>
+       <li class="studio-servises-item">Мобильных приложений для iOS и Android</li>
+       <li class="studio-servises-item">Слайдшоу и видео для корпоративных презентаций</li>
+      </ul>
+     </div>
+     <div class="studio-info">
+      <img src="img/index-studio.jpg" width="360" height="208" alt="Логотип дизайн-студии «Нёрдз»">
+      <h4>с 2004 года любим точность во всем:</h4>
+      <table class="studio-table">
        <tr class="studio-table-row1">
-        <td>146%</td>
-        <td>100%</td>
-        <td>50%</td>
+        <td>146<span class="sup">%</span></td>
+        <td>100<span class="sup">%</span></td>
+        <td>50<span class="sup">%</span></td>
        </tr>
        <tr class="studio-table-row2">
         <td>Уровень самоотдачи</td>
@@ -98,9 +100,9 @@
     </section>
     <section class="partners">
      <h2 class="visually-hidden">Партнеры дизайн-студии «Нёрдз»</h2>
-     <ul>
+     <ul class="partners-list">
       <li><a href="https://htmlacademy.ru/intensive/htmlcss">
-          <img src="img/partners-htmlacademy.png" width="199" height="68" alt="Логотип «HTML Academy»"></a></li>
+       <img src="img/partners-htmlacademy.png" width="199" height="68" alt="Логотип «HTML Academy»"></a></li>
       <li><a href="#"><img src="img/partners-borodinski.png" width="209" height="90" alt="Логотип «Барбершоп Бородинский»"></a></li>
       <li><a href="#"><img src="img/partners-pink.png" width="185" height="52" alt="Логотоип «PINK APP»"></a></li>
       <li><a href="#"><img src="img/partners-mishka.png" width="173" height="84" alt="Логотип «Mishka»"></a></li>
@@ -109,38 +111,36 @@
    </main>
    <footer class="main-footer">
     <section class="footer-location">
-     <h2 class="visually-hidden">Наши контакты</h2>
+    <h2 class="visually-hidden">Наши контакты</h2>
      <div class="location-adress">
-      <p>
-        nёrds disign studio
-        191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
-        тел. +7 (812) 275-75-75
+      <span>nёrds disign studio</span>
+       <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br></p>
+       <p>тел. +7 (812) 275-75-75</p>
        <a class="button contacts-button" href="#">Напишите нам</a>
-      </p>
      </div>
     </section>
     <section class="footer-social">
-      <h2 class="visually-hidden">Мы в социальных сетях:</h2>
+     <h2 class="visually-hidden">Мы в социальных сетях:</h2>
      <ul>
-       <li><a class="social-button" href="#">Вконтакте</a></li>
-       <li><a class="social-button" href="#">Фейсбук</a></li>
-       <li><a class="social-button" href="#">Инстаграм</a></li>
-      </ul>
-      <p><strong>Давайте дружить!</strong>
-      <p>Скидка 10% для друзей из социальных сетей.</p>
+      <li><a class="social-button" href="#">Вконтакте</a></li>
+      <li><a class="social-button" href="#">Фейсбук</a></li>
+      <li><a class="social-button" href="#">Инстаграм</a></li>
+     </ul>
+     <p><strong>Давайте дружить!</strong>
+     <p>Скидка 10% для друзей из социальных сетей.</p>
     </section>
    </footer>
 
    <section class="write-for-us">
-     <h2>Напишите нам</h2>
-     <form action="#" method="get">
-      <label for="user-name" class="write-for-us">Ваше имя:</label>
-      <input type="text" name="username" id="user-name" placeholder="Представьтесь, пожалуйста" required>
-      <label for="user-email" class="write-for-us">Ваш e-mail:</label>
-      <input type="email" name="email" id="user-email" placeholder="Для отправки ответа" autocomplete="on" required>
-      <label for="letter" class="write-for-us">Текст письма:</label>
-      <textarea name="text" id="letter" placeholder="В свободной форме"  required></textarea>
-     <button type="submit">Отправить</button>
+    <h2>Напишите нам</h2>
+    <form action="#" method="get">
+     <label for="user-name" class="write-for-us">Ваше имя:</label>
+     <input type="text" name="username" id="user-name" placeholder="Представьтесь, пожалуйста" required>
+     <label for="user-email" class="write-for-us">Ваш e-mail:</label>
+     <input type="email" name="email" id="user-email" placeholder="Для отправки ответа" autocomplete="on" required>
+     <label for="letter" class="write-for-us">Текст письма:</label>
+     <textarea name="text" id="letter" placeholder="В свободной форме"  required></textarea>
+     <button class="button button-form" type="submit">Отправить</button>
     </form>
    </section>
   </body>
