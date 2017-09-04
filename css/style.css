@@ -1,4 +1,4 @@
-html,body {
+body {
   margin: 0;
   padding: 0;
 
@@ -8,33 +8,12 @@ html,body {
   font-weight: 400;
   color: #283136;
 
-  width: 1440px;
-  height: 2476px;
   background-color: #ffffff;
 }
 
 a {
   text-decoration: none;
 }
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.main-header {
-  margin-bottom: 80px;
-  min-height: 546px;
-
-  background-color: #eeeeee;
-}
-
-.inner-page .main-header {
-  margin-bottom: 50px;
-  min-height: 352px;
-}
-
 
 .main-navigation {
   font-size: 16px;
@@ -43,61 +22,14 @@ a {
   color: #000000;
   text-transform: uppercase;
 
-  display: flex;
-  align-items: flex-start;
-
-  min-height: 116px;
-
-  }
-
-.main-header-logo {
-  width: 160px;
-  height: 65px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 51px;
+  background-color: #eeeeee;
 }
 
 .site-navigation,
-.user-navigation {
-  margin: 0;
-  padding: 0;
-
-  list-style: none;
-
-  min-height: 46px;
-}
-
-.user-navigation {
-  padding-right: 20px;
-  margin-left: auto;
-
-  list-style: none;
-
-  min-height: 46px;
-}
-
+.user-navigation,
 .services-list,
 .partners-list {
   list-style: none;
-}
-
-.services-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  padding-bottom: 80px;
-  min-height: 348px;
-
-  border-bottom: 1px solid #eeeeee;
-  background-color: #ffffff;
-}
-
-.service-item {
-  min-height: 348px;
-  width: 300px;
 }
 
 .site-navigation a,
@@ -136,26 +68,22 @@ a.main-header-logo:focus {
   color: #000000;
 }
 
-.slider-item1 {
+.slider {
   width: 698px;
   height: 413px;
+}
 
+.slider1 {
   background-image: url("../img/slider1.png");
   background-repeat: no-repeat;
 }
 
-.slider-item2 {
-  width: 698px;
-  height: 413px;
-
+.slider2 {
   background-image: url("../img/slider2.png");
   background-repeat: no-repeat;
 }
 
-.slider-item3 {
-  width: 698px;
-  height: 413px;
-
+.slider3 {
   background-image: url("../img/slider3.png");
   background-repeat: no-repeat;
 }
@@ -171,7 +99,7 @@ a.main-header-logo:focus {
   vertical-align: middle;
 
   border: none;
-  background-color: #fb565a;
+  background-color: #f1585c;
 }
 
 .button-slider:hover,
@@ -236,29 +164,6 @@ a.main-header-logo:focus {
   background-color: #e5a722;
 }
 
-.index-columns {
-  display: flex;
-  justify-content: space-between;
-
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 80px;
-  padding-bottom: 80px;
-
-  border-bottom: 1px solid #eeeeee;
-  background-color: #ffffff;
-}
-
-.studio {
-  width: 660px;
-  min-height: 400px;
-}
-
-.studio-info {
-  width: 360px;
-  min-height: 420px;
-}
-
 .studio-text {
   font-size: 45px;
   line-height: 45px;
@@ -276,7 +181,7 @@ a.main-header-logo:focus {
 
 .studio-table-row1 {
   font-size: 45px;
-  line-height: 54px;
+  line-height: 10.06px;
   font-weight: 700;
   color: #000000;
 }
@@ -290,24 +195,6 @@ a.main-header-logo:focus {
   line-height: 18px;
 }
 
-.partners {
-  margin-bottom: 80px;
-}
-
-.partners-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-
-  width: auto;
-  min-height: 184px;
-
-  border-bottom: 1px solid #eeeeee;
-  background-color: #ffffff;
-}
-
 .partners a {
   opacity: 0.2;
 }
@@ -318,11 +205,6 @@ a.main-header-logo:focus {
 
 .partners a:focus {
   opacity: 0.1;
-}
-
-.filters {
-  width: 260px;
-  min-height: 786px;
 }
 
 .filter fieldset {
@@ -358,16 +240,6 @@ a.main-header-logo:focus {
   opacity: 0.5;
 }
 
-.catalog-columns {
-  display: flex;
-  justify-content: space-between;
-}
-
-.catalog {
-  width: 760px;
-  min-height: 2110px;
-}
-
 .catalog-sorting ul {
   list-style: none;
 }
@@ -385,7 +257,7 @@ a.main-header-logo:focus {
 .filter-option a {
   font-size: 14px;
   line-height: 18px;
-  font-weight: 400;
+  font-weight: 700;
   color: rgba(0,0,0,0.3);
   text-transform: uppercase;
 
@@ -403,22 +275,7 @@ a.main-header-logo:focus {
 }
 
 .catalog-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-  padding: 0;
-  margin: 0;
-  margin-bottom: 60px;
-
   list-style: none;
-}
-
-.catalog-item {
-  width: 360;
-  min-height: 616px;
-
-  margin-bottom: 34px;
 }
 
 .catalog-name a {
@@ -458,11 +315,6 @@ a.main-header-logo:focus {
 }
 
 .pagination-list {
-  padding: 0;
-  margin: 0;
-
-  min-height: 50px;
-
   list-style: none;
 }
 
@@ -497,54 +349,19 @@ a.main-header-logo:focus {
   background-color: #ffffff;
 }
 
-.main-footer {
-  margin-top: 80px;
-  min-height: 634px;
-}
-
-.inner-page .main-footer {
-  margin-top: 60px;
-}
-
-
 .footer-location {
   width: 1440px;
   height: 416px;
 
-  margin: 0;
-  background-image: url("../img/contacts-map.jpg");
+  background-image: url("../img/map-marker.png"), url("../img/contacts-map.jpg");
   background-repeat: no-repeat;
-}
-
-.footer-location .container {
-  display: flex;
-}
-
-.location-marker {
-  width: 231px;
-  height: 190px;
-  margin: 0;
-
-  background-image: url("../img/map-marker.png");
-  background-repeat: no-repeat;
-}
-
-.location-adress {
-  width: 320px;
-  min-height: 308px;
-  margin: 0;
-}
-
-.footer-social {
-  margin: 0;
-  min-height: 216px;
 }
 
 .location-adress {
   background-color: #ffffff;
 }
 
-.location-name {
+.location-adress span {
   font-size: 18px;
   line-height: 30px;
   font-weight: 700;
@@ -554,26 +371,11 @@ a.main-header-logo:focus {
   background-color: #ffffff;
 }
 
-.location-adress-text {
-  font-size: 16px;
-  line-height: 18px;
-  font-weight: 400;
-  color: #666666;
-  text-transform: none;
-
-  background-color: #ffffff;
-}
-
 .contacts-button {
   background-color: #fb565a;
 }
 
-.footer-social .container {
-  display: flex;
-}
-
 .footer-social ul {
-  padding: 0;
   list-style: none;
 }
 
@@ -590,15 +392,6 @@ a.main-header-logo:focus {
   background-color: #ffffff;
 }
 
-.footer-social-text {
-  font-size: 16px;
-  line-height: 22px;
-  font-weight: 400;
-  color: #444444;
-
-  background-color: #ffffff;
-}
-
 .write-for-us {
   color: #000000;
   background-color: #ffffff;
@@ -611,17 +404,13 @@ a.main-header-logo:focus {
 }
 
 .write-for-us label {
-  line-height: 18px;
   font-weight: 700;
 }
 
 .write-for-us input,
-.write-for-us textarea,
-..write-for-us input::placeholder,
-.write-for-us textarea::placeholder {
+.write-for-us textarea {
   font: inherit;
-  line-height: 18px;
-  color: #444444;
+  color: #000000;
 
   border: 2px solid #000000;
   opacity: 0.3;

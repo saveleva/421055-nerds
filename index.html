@@ -9,7 +9,7 @@
   </head>
   <body>
    <header class="main-header">
-   <nav class="main-navigation container">
+   <nav class="main-navigation">
     <a class="main-header-logo"><img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип дизайн-студии «Нёрдз»"></a>
     <ul class="site-navigation">
      <li><a href="info.html">Студия</a></li>
@@ -24,20 +24,23 @@
     <section class="sliders">
      <h1 class="visually-hidden">Дизайн-студия «Нёрдз»</h1>
      <ul class="slider-list">
-      <li class="slider-item1">
+      <li class="slider-item">
        <h2>Долго, дорого, скурпулезно</h2>
        <p class="slider-text">Математически выверенный дизайн  для вашего сайта или мобильного приложения</p>
        <a class="button button-slider" href="info.html">Узнать больше</a>
+       <div class="slider slider1"></div>
       </li>
-      <li class="slider-item2">
+      <li class="slider-item">
        <h2>Любим математику как никто другой</h2>
        <p class="slider-text">Никакого креатива, только математические формулы  для расчета идеальных пропорций</p>
        <a class="button button-slider" href="info.html">Узнать больше</a>
+       <div class="slider slider2"></div>
       </li>
-      <li class="slider-item3">
+      <li class="slider-item">
        <h2>Только ночь, только хардкор</h2>
        <p class="slider-text">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается</p>
        <a class="button button-slider" href="info.html">Узнать больше</a>
+       <div class="slider slider3"></div>
       </li>
      </ul>
     </section>
@@ -66,18 +69,18 @@
       </li>
      </ul>
     </section>
-    <div class="index-columns">
-     <section class="studio">
-      <h2 class="visually-hidden">О дизайн-студии «Нёрдз»</h2>
+    <section class="studio">
+     <h2 class="visually-hidden">О дизайн-студии «Нёрдз»</h2>
+     <div>
       <p class="studio-text">Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
       <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
       <h4>Выполняем заказы на разработку:</h4>
-       <ul class="studio-servises">
-        <li class="studio-servises-item">Веб-сайтов любой сложности</li>
-        <li class="studio-servises-item">Мобильных приложений для iOS и Android</li>
-        <li class="studio-servises-item">Слайдшоу и видео для корпоративных презентаций</li>
-       </ul>
-     </section>
+      <ul class="studio-servises">
+       <li class="studio-servises-item">Веб-сайтов любой сложности</li>
+       <li class="studio-servises-item">Мобильных приложений для iOS и Android</li>
+       <li class="studio-servises-item">Слайдшоу и видео для корпоративных презентаций</li>
+      </ul>
+     </div>
      <div class="studio-info">
       <img src="img/index-studio.jpg" width="360" height="208" alt="Логотип дизайн-студии «Нёрдз»">
       <h4>с 2004 года любим точность во всем:</h4>
@@ -94,7 +97,7 @@
        </tr>
       </table>
      </div>
-    </div>
+    </section>
     <section class="partners">
      <h2 class="visually-hidden">Партнеры дизайн-студии «Нёрдз»</h2>
      <ul class="partners-list">
@@ -108,41 +111,35 @@
    </main>
    <footer class="main-footer">
     <section class="footer-location">
-     <h2 class="visually-hidden">Наши контакты</h2>
-     <div class="container">
-      <div class="location-adress">
-       <p><span class="location-name">nёrds disign studio</span><br>
-        <span class="location-adress-text">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
-        тел. +7 (812) 275-75-75</span>
-        <a class="button contacts-button" href="#">Напишите нам</a>
-       </p>
-      </div>
-      <div class="location-marker"></div>
+    <h2 class="visually-hidden">Наши контакты</h2>
+     <div class="location-adress">
+      <span>nёrds disign studio</span>
+       <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br></p>
+       <p>тел. +7 (812) 275-75-75</p>
+       <a class="button contacts-button" href="#">Напишите нам</a>
      </div>
     </section>
     <section class="footer-social">
      <h2 class="visually-hidden">Мы в социальных сетях:</h2>
-     <div class="container">
-      <ul>
-       <li><a class="social-button" href="#">Вконтакте</a></li>
-       <li><a class="social-button" href="#">Фейсбук</a></li>
-       <li><a class="social-button" href="#">Инстаграм</a></li>
-      </ul>
+     <ul>
+      <li><a class="social-button" href="#">Вконтакте</a></li>
+      <li><a class="social-button" href="#">Фейсбук</a></li>
+      <li><a class="social-button" href="#">Инстаграм</a></li>
+     </ul>
      <p><strong>Давайте дружить!</strong>
-     <p class="footer-social-text">Скидка 10% для друзей из социальных сетей.</p>
-     </div>
+     <p>Скидка 10% для друзей из социальных сетей.</p>
     </section>
    </footer>
 
    <section class="write-for-us">
     <h2>Напишите нам</h2>
     <form action="#" method="get">
-     <p><label for="user-name" class="write-for-us">Ваше имя:</label>
-     <input type="text" name="username" id="user-name" placeholder="Представьтесь, пожалуйста" required></p>
-     <p><label for="user-email" class="write-for-us">Ваш e-mail:</label>
-     <input type="email" name="email" id="user-email" placeholder="Для отправки ответа" autocomplete="on" required></p>
-     <p><label for="letter" class="write-for-us">Текст письма:</label>
-     <textarea name="text" id="letter" placeholder="В свободной форме"  required></textarea></p>
+     <label for="user-name" class="write-for-us">Ваше имя:</label>
+     <input type="text" name="username" id="user-name" placeholder="Представьтесь, пожалуйста" required>
+     <label for="user-email" class="write-for-us">Ваш e-mail:</label>
+     <input type="email" name="email" id="user-email" placeholder="Для отправки ответа" autocomplete="on" required>
+     <label for="letter" class="write-for-us">Текст письма:</label>
+     <textarea name="text" id="letter" placeholder="В свободной форме"  required></textarea>
      <button class="button button-form" type="submit">Отправить</button>
     </form>
    </section>
